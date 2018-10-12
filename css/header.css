@@ -1,0 +1,10 @@
+.title{
+	background-color: white;
+}
+.title-color{
+	color: black;
+}
+/*选项卡颜色*/
+.mui-bar-tab .mui-tab-item.mui-active{
+	color: dodgerblue;
+}
