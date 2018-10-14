@@ -1,12 +1,12 @@
-# miaoLiao秒聊通讯
+# miaoLiao秒聊通讯（前端）
 
-### 项目名称：秒聊通讯
+### 项目名称：秒聊通讯（前端）
 
 秒聊爱啪啪，一个专注聊天的爱啪啪
 
 ### 项目技术：
 
-Java 11、SpringBoot 2、MyBatis 、Druid 1.1、Netty、Log4j、Lombok、MUI、H5+
+Java 11、SpringBoot 2、MyBatis 、Druid 1.1、Netty、Log4j、Lombok、MUI、H5+，fastDFS
 
 ### 开发工具：
 
@@ -31,6 +31,10 @@ IntelliJ IDEA  x64、Hbuilder、MySQL 80、Tomcat、Linux、Maven3、Git、Navic
 
 ### 版本迭代Update content：
 
+#### 第2版version 0.15
+
++ 完成用户登陆后，可以自由上传图片的功能。后台文件服务器使用的是`fastDFS`搭建
+
 #### 第1版version 0.1
 
 简单聊天列表界面，后端搭建成功，未写功能
@@ -38,3 +42,4 @@ IntelliJ IDEA  x64、Hbuilder、MySQL 80、Tomcat、Linux、Maven3、Git、Navic
 后端项目地址：https://github.com/tengshe789/-miaoliao
 
 前端项目地址：https://github.com/tengshe789/miaoliao-frontend
+

@@ -65,6 +65,11 @@
 			}
 			
 			mui.plusReady(function(){
+				//禁止返回到登陆注册页面
+				mui.back = function(){
+					return false;
+				}
+				
 				//获取当前webview对象http://www.html5plus.org/doc/zh_cn/webview.html#plus.webview.currentWebview
 				var index = plus.webview.currentWebview();
 				//向当前主页webview追加子叶4项webview对象
