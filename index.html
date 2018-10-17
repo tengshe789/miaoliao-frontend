@@ -65,6 +65,8 @@
 			}
 			
 			mui.plusReady(function(){
+				plus.navigator.setStatusBarStyle("UIStatusBarStyleBlackOpaque");
+				plus.navigator.setStatusBarBackground('black');//设置状态栏的颜色
 				//禁止返回到登陆注册页面
 				mui.back = function(){
 					return false;
@@ -89,11 +91,11 @@
 				
 					var tabIndex = this.getAttribute("tabIndex");
 				//显示tab选项对应的页面
-				plus.webview.show(miaoliaoArray[tabIndex].pageId,"fade-in",200);
+				plus.webview.show(miaoliaoArray[tabIndex].pageId,"slide-in-left",1000);
 				//隐藏其他d不需要的窗口
 				for(var i = 0; i< miaoliaoArray.length ; i++){
 					if ( i != tabIndex){
-						plus.webview.hide(miaoliaoArray[i].pageId,"fade-out",200);
+						plus.webview.hide(miaoliaoArray[i].pageId,"slide-out-right",1000);
 					}
 				}
 				})

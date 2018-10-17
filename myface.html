@@ -13,8 +13,8 @@
 	<body>
 
 		<header class="mui-bar mui-bar-nav title">
-			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: dodgerblue;"></a>
-			<a id="openMenu" class="mui-icon mui-icon-right-nav mui-pull-right" style="color: dodgerblue;">…</a>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: white;"></a>
+			<a id="openMenu" class="mui-icon mui-icon-right-nav mui-pull-right" style="color: white;">…</a>
 			<h1 class="mui-title title-color">个人头像</h1>
 		</header>
 
@@ -93,7 +93,7 @@
 							
 							plus.nativeUI.closeWaiting();
 							
-							if (status == 200) {
+							if (code == 0) {
 								var tempFile = downloadFile.filename;
 								
 								// 通过相册api保存照片到本地相册

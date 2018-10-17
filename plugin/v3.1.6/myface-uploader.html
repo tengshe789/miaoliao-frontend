@@ -30,8 +30,8 @@
 	<body>
 		
 		<header class="mui-bar mui-bar-nav title" style="position: fixed;">
-			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: dodgerblue;"></a>
-			<a id="cutter" class="mui-pull-right" style="font-size: 15px;color: dodgerblue;line-height: 40px;">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: white;"></a>
+			<a id="cutter" class="mui-pull-right" style="font-size: 15px;color: white;line-height: 40px;">
 				<img src="../../image/upload.png" width="20px"/>
 			</a>
 			<h1 class="mui-title title-color"><b id="chatting-nickname">个人头像</b></h1>
@@ -107,8 +107,8 @@
 									app.setUserGlobalInfo(userInfo);
 									
 									// 触发另外一个webview的自定义事件，可以使用 mui.fire()
-									var imooc_meWebview = plus.webview.getWebviewById("me.html");
-									mui.fire(imooc_meWebview, "refresh");
+									var meWebview = plus.webview.getWebviewById("me.html");
+									mui.fire(meWebview, "refresh");
 									
 									// 触发另外一个webview的自定义事件，可以使用 mui.fire()
 									var myfaceWebview = plus.webview.getWebviewById("myface.html");

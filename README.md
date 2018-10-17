@@ -1,6 +1,6 @@
-# miaoLiao秒聊通讯（前端）
+# miaoLiao秒聊通讯（font_end）
 
-### 项目名称：秒聊通讯（前端）
+### 项目名称：秒聊通讯
 
 秒聊爱啪啪，一个专注聊天的爱啪啪
 
@@ -25,21 +25,47 @@ IntelliJ IDEA  x64、Hbuilder、MySQL 80、Tomcat、Linux、Maven3、Git、Navic
 
 ![list](http://resume.tengshe789.tech/static/im.jpg)
 
+### 使用
+
+第一步：
+
+打开连接，https://www.cnblogs.com/chiangchou/p/fastdfs.html，在服务端搭建好相应的`fastDFS`
+
+
+
 ### 联系我：
 
 微信：tengshe789
 
 ### 版本迭代Update content：
 
+#### 第5版version 0.18
+
+- 增加了搜索好友功能
+- UI重构
+
+#### 第4版version 0.17
+
+- 增加了为每个用户生成二维码功能
+- UI更像微信了
+- 照着阿里规范重新排了一下代码
+
+#### 第3版version 0.16
+
+- 增加了更新用户nickname功能
+
 #### 第2版version 0.15
 
-+ 完成用户登陆后，可以自由上传图片的功能。后台文件服务器使用的是`fastDFS`搭建
+- 完成用户登陆后，可以自由上传图片的功能。后台文件服务器使用的是`fastDFS`搭建
 
 #### 第1版version 0.1
 
-简单聊天列表界面，后端搭建成功，未写功能
+- 简单聊天列表界面，后端搭建成功，未写功能
 
 后端项目地址：https://github.com/tengshe789/-miaoliao
 
 前端项目地址：https://github.com/tengshe789/miaoliao-frontend
 
+## 推荐参考资料
+
+闪电侠的netty ： https://juejin.im/book/5b4bc28bf265da0f60130116
